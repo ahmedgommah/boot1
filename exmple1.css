@@ -1,0 +1,253 @@
+html,body,h1,h2,h3,h4,h5,h6
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    transition: .05s;
+}
+.gap-h
+{
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+/* start css code for nav*/
+
+#nav
+{
+    position: fixed;
+    height: 60px;
+    background-color: darkslategrey;
+    padding: 0;
+    margin: 0;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+     
+}
+#nav span i
+{
+    margin-left: 30px;
+    font-size: 25px;
+    color: white;
+}
+#nav span i:hover
+{
+    color:red;
+}
+#nav ul
+{
+    list-style-type: none;
+    display: flex;
+    line-height: 35px;
+    
+}
+#nav ul li a
+{
+    color: white;
+    margin-left: 20px;
+    text-decoration:none;
+}
+#nav ul li a:hover
+{
+    color: red;
+}
+/* end css code for nav*/
+/* start css code for content */
+#cover
+{
+    background-image:url("images.jfif");
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    
+}
+#content
+{
+    height: 400px;
+    text-align: center;
+    background-color: rgba(2,2,2,.5);
+}
+#content .p1
+{
+    color:aqua;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    padding: 100px 100px 50px 100px;
+}
+#content button
+{
+    border: 0px;
+    font-size: 25px;
+    padding: 0; 
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: coral;
+}
+#content button:hover
+{
+    background-color: red
+}
+/*end css code for content*/
+
+/*start css code for container*/
+.container1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.container1 .box {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.container1 .box div,
+.container1 .box p,
+.container1 .box h3 
+{
+    width: 100%;
+    text-align: center;
+}
+
+.container1 .box div img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px #222;
+    transition: 0.5s;
+}
+
+.container1 .box div img:hover {
+    transform: rotateY(180deg);
+}
+.container1 .box .butt
+{
+    border: 0px;
+    font-size: 25px;
+    padding: 0;
+    text-transform: uppercase;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: coral;
+}
+.container1 .box .butt:hover
+{
+    background-color: red;
+}
+/*end css code for container*/
+
+
+
+/*start css code for icons*/
+#icons {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.font
+{
+    font-size: 20px;
+    margin-left: 30px;
+    border-bottom: 2px solid ;
+}
+#icons .font
+{
+    margin-bottom: 50px
+}
+i 
+{
+    margin-right: 10px;
+    float: left;
+    color: red;
+}
+#icons .font .cont p
+{
+    margin-left: 45px;
+}
+/*end css code for icons*/
+
+/*start code css section10*/
+
+.container2
+{
+    text-align: center;
+    background-color: #ccc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+}
+.container2 .text b
+{
+    color: white;
+}
+.container2 .form  
+ {
+    padding:10px;
+    
+}
+.container2 .form input ,.container2 .form textarea
+{
+    width: 50%;
+    padding: 10px;
+}
+
+.container2 .form button
+{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(2,2,2,0.1);
+    border: 0;
+    color:blue;
+    border: 0px;
+}
+.container2 .form button:hover
+{
+    background-color:green;
+    color: white;
+}
+
+
+/*end code css container1*/
+
+
+
+/*start css code for footer*/
+footer
+{
+    padding-top: 10px;
+    height: auto;
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+footer p
+{
+    margin: 0;
+    font-size: 20px;
+}
+footer ul li
+{
+    padding: 10px;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+footer ul li:hover
+{
+    background-color: bisque;
+    color:blue
+}
+/*end css code for footer*/
